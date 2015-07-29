@@ -52,7 +52,7 @@ If your source code provider is Github visit the [Github website](https://github
 
 ### Bitbucket
 
-If your source code provider is Bitbucket visit the [Bitbucket website](https://bitbucket.org){:target="_blank"}, select your repository, then go to the repository settings. Under *Integratins*, select *Hooks*, then select *POST* from the dropdown list, then *Add hook*. Paste your webhook URL in the field, then select *Save*.
+If your source code provider is Bitbucket visit the [Bitbucket website](https://bitbucket.org){:target="_blank"}, select your repository, then go to the repository settings. Under *Integrations*, select *Webhooks*, then click the *Add webhook* button. Paste your webhook URL in the field, add a title, and if the Push trigger isn't enough select "Choose from a full list of triggers" and add choose the triggers you need, then select *Save*.
 
 ### Other source code hosting services
 
