@@ -4,6 +4,18 @@ title: Virtual Machines / Box change log
 
 # Virtual Machines / Box #changelog
 
+## Aug 1, 2015
+
+* installed with Homebrew:
+    * __git__: `2.4.5` -> `2.5.0`
+* __Xcode__:
+    * __-beta__: `7.0 beta 3 (build version: 7A152u)` -> `7.0 beta 4 (build version: 7A165t)`
+* __Ruby Gems__, *installed for the default Ruby version*
+    * [CocoaPods](http://cocoapods.org/){:target="_blank"}: `0.37.2` -> `0.38.2`
+    * [bundler](http://bundler.io/){:target="_blank"}: `1.10.5` -> `1.10.6`
+* [XcodeUnitTestMiniserver](https://github.com/bitrise-io/xcodebuild-unittest-miniserver){:target="_blank"}: __REMOVED__
+
+
 ## July 18, 2015
 
 * installed with Homebrew:
