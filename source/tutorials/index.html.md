@@ -30,3 +30,16 @@ it [here](/docs/index.html).
 * [HipChat message with build status](/tutorials/hipchat-message.html)
 * [Replace or download project resources](/tutorials/replace-project-resources.html)
 * [Auto Deploy your Middleman website with Bitrise](/tutorials/middleman-project.html)
+
+
+## Deployment
+
+* [Deploy to TestFairy with Bitrise](/tutorials/deploy-to-testfairy-with-bitrise.html)
+
+
+## Community created (links)
+
+*If you write a tutorial or blog post about Bitrise feel free to add your link here.
+Just fork the DevCenter repository, add your link to this list and create a Pull Request.*
+
+* [Bitrise and Carthage - a simple guide about how to use Carthage on Bitrise](http://blog.ricardopereira.eu/2015/07/10/EN-bitrise-and-carthage/){:target="_blank"}

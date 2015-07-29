@@ -4,6 +4,28 @@ title: Virtual Machines / Box change log
 
 # Virtual Machines / Box #changelog
 
+## Aug 1, 2015
+
+* installed with Homebrew:
+    * __git__: `2.4.5` -> `2.5.0`
+* __Xcode__:
+    * __-beta__: `7.0 beta 3 (build version: 7A152u)` -> `7.0 beta 4 (build version: 7A165t)`
+* __Ruby Gems__, *installed for the default Ruby version*
+    * [CocoaPods](http://cocoapods.org/){:target="_blank"}: `0.37.2` -> `0.38.2`
+    * [bundler](http://bundler.io/){:target="_blank"}: `1.10.5` -> `1.10.6`
+* [XcodeUnitTestMiniserver](https://github.com/bitrise-io/xcodebuild-unittest-miniserver){:target="_blank"}: __REMOVED__
+
+
+## July 18, 2015
+
+* installed with Homebrew:
+    * __coreutils__: `8.23` -> `8.24`
+    * __NodeJS__: `v0.12.5` -> `v0.12.7`
+    * __NPM__: `2.11.2` -> `2.12.1`
+* __Xcode__:
+    * __-stable__: `6.4 (build version: 6E35b)` (no change)
+    * __-beta__: `7.0 beta2 (build version: 7A121l)` -> `7.0 beta3 (build version: 7A152u)`
+
 ## July 11, 2015
 
 * OS X: `10.10.3` -> `10.10.4`
@@ -15,10 +37,10 @@ title: Virtual Machines / Box change log
     * __NPM__: `2.10.1` -> `2.11.2`
     * [ansible](http://www.ansible.com/home){:target="_blank"}: `1.9.1` -> `1.9.2`
 * __Xcode__:
-  * __-stable__: `6.3.2 (build version: 6D2105)` -> `6.4 (build version: 6E35b)`
-  * __-beta__: `7.0 beta2 (build version: 7A121l)`
+    * __-stable__: `6.3.2 (build version: 6D2105)` -> `6.4 (build version: 6E35b)`
+    * __-beta__: `7.0 beta2 (build version: 7A121l)`
 * __Ruby Gems__, *installed for the default Ruby version*
-  * [bundler](http://bundler.io/){:target="_blank"}: `1.10.3` -> `1.10.5`
+    * [bundler](http://bundler.io/){:target="_blank"}: `1.10.3` -> `1.10.5`
 
 
 ## June 13, 2015
