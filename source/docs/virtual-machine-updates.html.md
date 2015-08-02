@@ -31,7 +31,7 @@ Our current Base Box contains the following programs preinstalled:
 * [Homebrew](http://brew.sh/){:target="_blank"}: `0.9.5`
 * installed with Homebrew:
     * __coreutils__: `8.24` - installed with Homebrew, this means that all the tools are prefixed with the letter __g__. For example `timeout` is available as `gtimeout`.
-    * __git__: `2.4.5`
+    * __git__: `2.5.0`
     * __mercurial__: `3.4.2`
     * __xctool__: `0.2.4`
     * __go__: `1.4.2`
@@ -41,17 +41,16 @@ Our current Base Box contains the following programs preinstalled:
     * [ansible](http://www.ansible.com/home){:target="_blank"}: `1.9.2`
 * __Xcode__:
     * __-stable__: `6.4 (build version: 6E35b)`
-    * __-beta__: `7.0 beta 3 (build version: 7A152u)`
+    * __-beta__: `7.0 beta 4 (build version: 7A165t)`
 * [RVM](http://rvm.io/){:target="_blank"}: `1.26.11`
 * __Rubies__ (installed with RVM)
     * `2.1.6`
     * `2.2.2`
     * `2.1.5 (p273)`, set as **default**
 * __Ruby Gems__, *installed for the default Ruby version*
-    * [CocoaPods](http://cocoapods.org/){:target="_blank"}: `0.37.2`
+    * [CocoaPods](http://cocoapods.org/){:target="_blank"}: `0.38.2`
     * [nomad-cli](http://nomad-cli.com/){:target="_blank"}: `2.4.8`
-    * [bundler](http://bundler.io/){:target="_blank"}: `1.10.5`
-* [XcodeUnitTestMiniserver](https://github.com/bitrise-io/xcodebuild-unittest-miniserver){:target="_blank"}: `1.2.0`
+    * [bundler](http://bundler.io/){:target="_blank"}: `1.10.6`
 * [cmd-bridge](https://github.com/bitrise-io/cmd-bridge){:target="_blank"}: `v0.9.2` installed and auto-started in server mode (with LaunchAgent)
 
 You can find the **Virtual Machine changelog** [here](/docs/vm-box-changelog.html).
