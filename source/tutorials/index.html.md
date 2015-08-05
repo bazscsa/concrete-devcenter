@@ -18,6 +18,7 @@ it [here](/docs/index.html).
 
 * [Manage your Bitrise Workflows](/tutorials/manage-your-bitrise-workflow.html)
 * [Efficient Continuous Integration and Deployment Workflow for iOS development](/tutorials/efficient-continuous-integration-and-deployment-workflow-for-ios.html)
+* [How to specify the CocoaPods version to use](/tutorials/cocoapods-how-to.html)
 
 ## Running tests
 
