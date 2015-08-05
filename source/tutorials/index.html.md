@@ -30,6 +30,7 @@ it [here](/docs/index.html).
 * [HipChat message with build status](/tutorials/hipchat-message.html)
 * [Replace or download project resources](/tutorials/replace-project-resources.html)
 * [Auto Deploy your Middleman website with Bitrise](/tutorials/middleman-project.html)
+* [Fastlane tools integration](/tutorials/fastlane_tools_integration.html)
 
 
 ## Deployment
