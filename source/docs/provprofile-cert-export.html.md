@@ -9,8 +9,8 @@ The Provisioning Profile and Build Certificate are crucial part of the developme
 To export the Provisioning Profile simply follow these steps:
 
 * Visit the [Apple Member Center](https://developer.apple.com/membercenter/). You can use your AppleID to login and while you're there you should look around a bit. You can download new beta software, find forums and so much more.
-* Choose "Certificates, Identifiers & Profiles"
-* Choose Provisioning Profile
+* When you no longer hunger for further explorations on the site choose the "Certificates, Identifiers & Profiles"
+* Here we need the Provisioning Profile link
 
 ![Member Center](images/provprofile-cert-export/MemberCenter.png "Member Center")
 
@@ -25,7 +25,7 @@ To export the Provisioning Profile simply follow these steps:
 
 To export the Build Certificate simply follow these steps:
 
-* The Build Certificate can be found in your Keychain, in the Certificates category
+* The Build Certificate can be found in your Keychain along with other safety-critical information. It is in the Certificates category
 
 ![Keychain](images/provprofile-cert-export/Keychain.png "Keychain")
 
