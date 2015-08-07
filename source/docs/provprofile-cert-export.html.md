@@ -2,9 +2,11 @@
 title: How to export your Certificate and Provisioning Profile
 ---
 
+# How to export your Certificate and Provisioning Profile
+
 The Provisioning Profile and Build Certificate are crucial part of the development process. The Provisioning Profile contains application related data, the list of devices that can run the given application, the DeveloperCertificates and many more. The type can be development and distribution. The Build Certificate contains information about the developer and makes it possible to sign the application. Both of these files are needed to build your application, test them on devices or upload them to the AppStore. Bitrise also uses the Build Certificate and Provisioning Profile you upload so you can install the application on your devices.
 
-# Provisioning Profile
+## Provisioning Profile
 
 To export the Provisioning Profile simply follow these steps:
 
@@ -21,7 +23,7 @@ To export the Provisioning Profile simply follow these steps:
 * Visit the Application Settings page on Bitrise and upload the downloaded (.mobileprovision) file  with the Build Certificate and let the building begin!
 
 
-# Build Certificate
+## Build Certificate
 
 To export the Build Certificate simply follow these steps:
 
