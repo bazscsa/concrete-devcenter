@@ -2,11 +2,13 @@
 title: How to export your Certificate and Provisioning Profile
 ---
 
+The Provisioning Profile and Build Certificate are crucial part of the development process. The Provisioning Profile contains application related data, the list of devices that can run the given application, the DeveloperCertificates and many more. The type can be development and distribution. The Build Certificate contains information about the developer and makes it possible to sign the application. Both of these files are needed to build your application, test them on devices or upload them to the AppStore. Bitrise also uses the Build Certificate and Provisioning Profile you upload so you can install the application on your devices.
+
 # Provisioning Profile
 
 To export the Provisioning Profile simply follow these steps:
 
-* Visit the [Apple Member Center](https://developer.apple.com/membercenter/). You can use your AppleID to login.
+* Visit the [Apple Member Center](https://developer.apple.com/membercenter/). You can use your AppleID to login and while you're there you should look around a bit. You can download new beta software, find forums and so much more.
 * Choose "Certificates, Identifiers & Profiles"
 * Choose Provisioning Profile
 
@@ -23,7 +25,7 @@ To export the Provisioning Profile simply follow these steps:
 
 To export the Build Certificate simply follow these steps:
 
-* The Build Certificate can be found in yout Keychain, in the Certificates category
+* The Build Certificate can be found in your Keychain, in the Certificates category
 
 ![Keychain](images/provprofile-cert-export/Keychain.png "Keychain")
 
