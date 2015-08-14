@@ -1,0 +1,17 @@
+format_version: 0.9.9
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+workflows:
+  bundle_install:
+    steps:
+    - script:
+        title: Bundle Install
+        inputs:
+        - content: bundle install
+  server:
+    before_run:
+    - bundle_install
+    steps:
+    - script:
+        title: Start middleman server
+        inputs:
+        - content: bundle exec middleman
