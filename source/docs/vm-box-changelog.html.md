@@ -4,6 +4,15 @@ title: Virtual Machines / Box change log
 
 # Virtual Machines / Box #changelog
 
+
+## Aug 15, 2015
+
+* installed with Homebrew:
+    * __mercurial__: `3.4.2` -> `3.5`
+* __Xcode__:
+    * __-beta__: `7.0 beta 4 (build version: 7A165t)` -> `7.0 beta 5 (build version: 7A176x)`
+
+
 ## Aug 1, 2015
 
 * installed with Homebrew:

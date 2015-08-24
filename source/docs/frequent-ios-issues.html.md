@@ -38,6 +38,7 @@ Error might be **ld: file not found**, the path contains *DerivedData*, with no 
     ld: file not found: /Users/vagrant/Library/Developer/Xcode/DerivedData/...
     clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
+
 **Solution:**
 
 Delete Xcode local cache - the error should now be
@@ -47,6 +48,41 @@ You can delete the local Xcode cache using your Terminal:
 
     rm -rf ~/Library/Developer/Xcode/DerivedData
 
+
+## CocoaPods frameworks signing issue
+
+*This only applies for __framework__ signing issues.*
+
+You get an error similar to:
+
+<pre><code>=== CLEAN TARGET Pods-Xxxxxxxxx OF PROJECT Pods WITH CONFIGURATION Release ===
+
+Check dependencies
+[BEROR]Code Sign error: No code signing identities found: No valid signing identities (i.e. certificate and private key pair) matching the team ID “(null)” were found.
+[BEROR]CodeSign error: code signing is required for product type 'Framework' in SDK 'iOS 8.1'
+</code></pre>
+
+This error is related to how CocoaPods expects code signing configurations for __frameworks__.
+
+**Solution:**
+
+One of our user sent us this fix:
+
+Add this as a post script, to your `Podfile`:
+
+<pre><code>post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+      config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+      config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+    end
+  end
+end
+</code></pre>
+
+You can also find possible solutions at CocoaPod's official GitHub issues page,
+like this one: [https://github.com/CocoaPods/CocoaPods/issues/3063](https://github.com/CocoaPods/CocoaPods/issues/3063){:target="_blank"}.
 
 ## Searching for errors and issues in Xcode generated outputs
 
