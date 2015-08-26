@@ -35,6 +35,7 @@ it [here](/tutorials/index.html).
 * [Virtual Machines: pre-installed tools and update schedule](/docs/virtual-machine-updates.html)
 * [Useful tools](/docs/useful_tools.html)
 * [Useful links for iOS development and testing](/docs/useful_dev_and_testing_links.html)
+* [How to export your Certificate and Provisioning Profile](/docs/provprofile-cert-export.html)
 
 ### API
 
