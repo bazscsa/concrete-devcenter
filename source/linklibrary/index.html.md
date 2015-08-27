@@ -20,12 +20,11 @@ Apps, Websites & Games](http://www.oneskyapp.com/){:target="_blank"}
 * [LaunchKit App Websites - A smart, simple website for your app.](https://launchkit.io/websites){:target="_blank"}
 
 
-### Open iOS Dev Communities
+### Open Slack iOS Dev Communities
 
-* [Slack](https://slack.com/){:target="_blank"}
-   * [iOS Devs](http://ios-developers.io/){:target="_blank"}
-   * [Swifters](https://swifters.slack.com/){:target="_blank"}
-   * [Testing Community](https://testersio.slack.com){:target="_blank"}
+* [iOS Devs](http://ios-developers.io/){:target="_blank"}
+* [Swifters](https://swifters.slack.com/){:target="_blank"}
+* [Testing Community](https://testersio.slack.com){:target="_blank"}
 
 ## For Testing
 
