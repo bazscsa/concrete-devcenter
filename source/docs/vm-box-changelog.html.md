@@ -5,6 +5,18 @@ title: Virtual Machines / Box change log
 # Virtual Machines / Box #changelog
 
 
+## Sep 5, 2015
+
+* installed with Homebrew:
+    * __git__: `2.5.0` -> `2.5.1`
+    * __xctool__: `0.2.4` -> `0.2.5`
+    * __go__: `1.4.2` -> `1.5`
+* __Xcode__:
+    * __-beta__: `7.0 beta 5 (build version: 7A176x)` -> `7.0 beta 6 (build version: 7A192o)`
+* [bitrise CLI](https://github.com/bitrise-io/bitrise){:target="_blank"}: **new**, `0.9.11`
+* [bitrise-bridge](https://github.com/bitrise-io/bitrise-bridge){:target="_blank"}: **new**, `0.9.1`
+
+
 ## Aug 15, 2015
 
 * installed with Homebrew:
