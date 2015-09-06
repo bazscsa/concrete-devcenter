@@ -14,7 +14,8 @@ title: Virtual Machines / Box change log
 * __Xcode__:
     * __-beta__: `7.0 beta 5 (build version: 7A176x)` -> `7.0 beta 6 (build version: 7A192o)`
 * [bitrise CLI](https://github.com/bitrise-io/bitrise){:target="_blank"}: **new**, `0.9.11`
-* [bitrise-bridge](https://github.com/bitrise-io/bitrise-bridge){:target="_blank"}: **new**, `0.9.1`
+* [bitrise-bridge](https://github.com/bitrise-io/bitrise-bridge){:target="_blank"}: **new**, `0.9.2`
+* [cmd-bridge](https://github.com/bitrise-io/cmd-bridge){:target="_blank"}: `v0.9.2` -> `0.9.3`
 
 
 ## Aug 15, 2015

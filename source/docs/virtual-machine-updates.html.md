@@ -31,17 +31,17 @@ Our current Base Box contains the following programs preinstalled:
 * [Homebrew](http://brew.sh/){:target="_blank"}: `0.9.5`
 * installed with Homebrew:
     * __coreutils__: `8.24` - installed with Homebrew, this means that all the tools are prefixed with the letter __g__. For example `timeout` is available as `gtimeout`.
-    * __git__: `2.5.0`
+    * __git__: `2.5.1`
     * __mercurial__: `3.5`
-    * __xctool__: `0.2.4`
-    * __go__: `1.4.2`
+    * __xctool__: `0.2.5`
+    * __go__: `1.5`
     * __NodeJS__: `v0.12.7`
     * __NPM__: `2.12.1`
     * __wget__: `1.16.3`
     * [ansible](http://www.ansible.com/home){:target="_blank"}: `1.9.2`
 * __Xcode__:
     * __-stable__: `6.4 (build version: 6E35b)`
-    * __-beta__: `7.0 beta 5 (build version: 7A176x)`
+    * __-beta__: `7.0 beta 6 (build version: 7A192o)`
 * [RVM](http://rvm.io/){:target="_blank"}: `1.26.11`
 * __Rubies__ (installed with RVM)
     * `2.1.6`
@@ -51,7 +51,9 @@ Our current Base Box contains the following programs preinstalled:
     * [CocoaPods](http://cocoapods.org/){:target="_blank"}: `0.38.2`
     * [nomad-cli](http://nomad-cli.com/){:target="_blank"}: `2.4.8`
     * [bundler](http://bundler.io/){:target="_blank"}: `1.10.6`
-* [cmd-bridge](https://github.com/bitrise-io/cmd-bridge){:target="_blank"}: `v0.9.2` installed and auto-started in server mode (with LaunchAgent)
+* [cmd-bridge](https://github.com/bitrise-io/cmd-bridge){:target="_blank"}: `0.9.3` installed and auto-started in server mode (with LaunchAgent)
+* [bitrise CLI](https://github.com/bitrise-io/bitrise){:target="_blank"}: `0.9.11`
+* [bitrise-bridge](https://github.com/bitrise-io/bitrise-bridge){:target="_blank"}: `0.9.2`
 
 You can find the **Virtual Machine changelog** [here](/docs/vm-box-changelog.html).
 
